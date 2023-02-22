@@ -46,11 +46,11 @@ namespace ResetNetworkDriver.Managers
                 combobox.Items.Add(networkAdapterName);
             }
 
-            var networkAdapterNameSetting = Properties.Settings.Default.SelectedDevice;
+            var savedNetworkAdapterName = Properties.Settings.Default.SelectedDevice;
 
-            if (!string.IsNullOrEmpty(networkAdapterNameSetting))
+            if (!string.IsNullOrEmpty(savedNetworkAdapterName))
             {
-                combobox.FindStringExact(networkAdapterNameSetting);
+                combobox.SelectedIndex = combobox.FindStringExact(savedNetworkAdapterName);
             }
         }
 

@@ -30,11 +30,20 @@ namespace ResetNetworkDriver
                 selectedDriver = selectedDriverSetting;
             }
 
+            string[] availableDriverNames = { "Network Wmi Driver", "Network Nets Driver", "System Device management Driver" };
+
+            if (!availableDriverNames.Contains(selectedDriver))
+            {
+                selectedDriver = "Network Wmi Driver";
+            }
+
             networkDriverManager = new FormNetworkDriverManager(ref deviceDriverManager, ref deviceCompoBox, ref driverCompoBox);
 
             networkDriverManager.changeDriver(selectedDriver);
 
             networkDriverManager.initializeDriverSettingCompbox(ref driverCompoBox);
+
+            networkDriverManager.updateNetworkDriverCompoboxItems(ref deviceCompoBox);
 
 
             this.progressService = new ProgressBarManager(progressBar1, statusLabel);

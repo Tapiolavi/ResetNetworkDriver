@@ -10,5 +10,6 @@ namespace ResetNetworkDriver.Interfaces
         IDeviceDriver getNetworkDriverService();
         void ComboBoxSelectedIndexChanged(object sender, EventArgs e);
         void changeDriver(string selectedItem);
+        void updateNetworkDriverCompoboxItems(ref ComboBox combobox);
     }
 }
