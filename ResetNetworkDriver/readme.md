@@ -21,5 +21,14 @@ install in your selected package manager debencies.
 ```
 
 
+## Usage
+
+Ensure that you have admistration right as the program ask those to run.
+
+1. Select settings tab a driver what you want to use examble "Network Wmi Driver"
+2. Go to resetting tab and Select drop down the network adabter what you want to reset. Examble failing one "MediaTek Wi-Fi 6E MT7922 160MHz Wireless LAN Card"
+3. Press reset button and wait untill the process is completed.
+
+
 
 
