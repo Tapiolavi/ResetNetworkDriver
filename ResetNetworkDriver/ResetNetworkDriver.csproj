@@ -8,6 +8,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Description>Reset device</Description>
     <Copyright>tapiolavi</Copyright>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
   </PropertyGroup>
 
   <ItemGroup>
