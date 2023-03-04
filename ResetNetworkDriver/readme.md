@@ -29,6 +29,11 @@ Ensure that you have admistration right as the program ask those to run.
 2. Go to resetting tab and Select drop down the network adabter what you want to reset. Examble failing one "MediaTek Wi-Fi 6E MT7922 160MHz Wireless LAN Card"
 3. Press reset button and wait untill the process is completed.
 
+## Release
+
+Compiled binary and video to use found here: 
+
+**v1.0.0** https://github.com/Tapiolavi/ResetNetworkDriver/releases/tag/1.0.0
 
 
 
