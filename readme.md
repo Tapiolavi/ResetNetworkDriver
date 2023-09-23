@@ -31,9 +31,27 @@ Ensure that you have admistration right as the program ask those to run.
 
 ## Release
 
-Compiled binary and video to use found here: 
-
 **v1.0.0** https://github.com/Tapiolavi/ResetNetworkDriver/releases/tag/1.0.0
+
+Usage video: https://youtu.be/Hr-NxENBuEA
+
+# Install
+
+Extract the zip file and run the exe. Note Ensure that windows os is above 7 and it has net 6.0 runtimes.
+NOTE: The app is not signed or sertified.
+
+Main tab:
+
+![image](https://user-images.githubusercontent.com/108860326/220748897-28dfd8ae-bce9-49f9-8dac-2c10e5ab366b.png)
+
+After reset:
+
+Settings tab:
+
+![image](https://user-images.githubusercontent.com/108860326/220749083-8f44c019-04d3-433e-b024-bc2b819b2374.png)
+
+
+
 
 
 
